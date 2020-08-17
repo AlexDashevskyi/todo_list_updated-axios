@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/todo_list_updated-axos.iml" filepath="$PROJECT_DIR$/.idea/todo_list_updated-axos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/todo_list_updated-axios.iml" filepath="$PROJECT_DIR$/.idea/todo_list_updated-axios.iml" />
     </modules>
   </component>
 </project>
