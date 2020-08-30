@@ -11,7 +11,7 @@ function App() {
 
     const create = async (title) => {
 
-        await axios.post('http://localhost:5000/todo', {name: title})
+        await axios.post('https://my-server89.herokuapp.com/todo', {name: title})
             .then(function (response) {
             })
             .catch(function (error) {
@@ -19,7 +19,7 @@ function App() {
                 console.log(error);
             })
 
-        await axios.get('http://localhost:5000/todo')
+        await axios.get('https://my-server89.herokuapp.com/todo')
             .then(function (response) {
                 const listFromServer = response.data
                 console.log(response)
@@ -31,7 +31,7 @@ function App() {
             })
     };
     const toggleDone = async (todoId, done) => {
-       await axios.put(`http://localhost:5000/todo/${todoId}`, {done:!done})
+       await axios.put(`https://my-server89.herokuapp.com/todo/${todoId}`, {done:!done})
             .then(function (response) {
             })
             .catch(function (error) {
@@ -39,7 +39,7 @@ function App() {
                 console.log(error);
             })
 
-        await axios.get('http://localhost:5000/todo')
+        await axios.get('https://my-server89.herokuapp.com/todo')
             .then(function (response) {
                 const listFromServer = response.data
                 console.log(response)
@@ -51,7 +51,7 @@ function App() {
             })
     };
     const remove = async (todoId) => {
-        await axios.delete(`http://localhost:5000/todo/${todoId}`)
+        await axios.delete(`https://my-server89.herokuapp.com/todo/${todoId}`)
             .then(function (response) {
             })
             .catch(function (error) {
@@ -59,7 +59,7 @@ function App() {
                 console.log(error);
             })
 
-        await axios.get('http://localhost:5000/todo')
+        await axios.get('https://my-server89.herokuapp.com/todo')
             .then(function (response) {
                 const listFromServer = response.data
                 console.log(response)
@@ -72,7 +72,7 @@ function App() {
     };
 
     const edit = async (todoId, newTodo) => {
-        await axios.patch(`http://localhost:5000/todo/${todoId}`, {name:newTodo})
+        await axios.patch(`https://my-server89.herokuapp.com/todo/${todoId}`, {name:newTodo})
             .then(function (response) {
             })
             .catch(function (error) {
@@ -80,7 +80,7 @@ function App() {
                 console.log(error);
             })
 
-        await axios.get('http://localhost:5000/todo')
+        await axios.get('https://my-server89.herokuapp.com/todo')
             .then(function (response) {
                 const listFromServer = response.data
                 console.log(response)
@@ -106,7 +106,7 @@ function App() {
     };
 
     useEffect(() => {
-        axios.get('http://localhost:5000/todo')
+        axios.get('https://my-server89.herokuapp.com/todo')
             .then(function (response) {
                 const listFromServer = response.data
                 console.log(response)
