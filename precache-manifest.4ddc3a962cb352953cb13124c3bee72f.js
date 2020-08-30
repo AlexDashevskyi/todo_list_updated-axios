@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91ba9ee74dd82fbbc4572d565de27e88",
+    "revision": "bf8e441278718473d65742cd0ede5d8a",
     "url": "/todo_list_updated-axios/index.html"
   },
   {
-    "revision": "9df10b8695ae6e3746a4",
+    "revision": "20562dc6b9fbfb8279c9",
     "url": "/todo_list_updated-axios/static/css/main.faf3ddbb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/todo_list_updated-axios/static/js/2.b0d3f6b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9df10b8695ae6e3746a4",
-    "url": "/todo_list_updated-axios/static/js/main.f23196a0.chunk.js"
+    "revision": "20562dc6b9fbfb8279c9",
+    "url": "/todo_list_updated-axios/static/js/main.ec213c92.chunk.js"
   },
   {
     "revision": "0df7cb78d4d05630b5ec",

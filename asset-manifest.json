@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/todo_list_updated-axios/static/css/main.faf3ddbb.chunk.css",
-    "main.js": "/todo_list_updated-axios/static/js/main.f23196a0.chunk.js",
-    "main.js.map": "/todo_list_updated-axios/static/js/main.f23196a0.chunk.js.map",
+    "main.js": "/todo_list_updated-axios/static/js/main.ec213c92.chunk.js",
+    "main.js.map": "/todo_list_updated-axios/static/js/main.ec213c92.chunk.js.map",
     "runtime-main.js": "/todo_list_updated-axios/static/js/runtime-main.9dfdf312.js",
     "runtime-main.js.map": "/todo_list_updated-axios/static/js/runtime-main.9dfdf312.js.map",
     "static/js/2.b0d3f6b7.chunk.js": "/todo_list_updated-axios/static/js/2.b0d3f6b7.chunk.js",
     "static/js/2.b0d3f6b7.chunk.js.map": "/todo_list_updated-axios/static/js/2.b0d3f6b7.chunk.js.map",
     "index.html": "/todo_list_updated-axios/index.html",
-    "precache-manifest.c1905920309b908ae18eac22fc3d26d6.js": "/todo_list_updated-axios/precache-manifest.c1905920309b908ae18eac22fc3d26d6.js",
+    "precache-manifest.4ddc3a962cb352953cb13124c3bee72f.js": "/todo_list_updated-axios/precache-manifest.4ddc3a962cb352953cb13124c3bee72f.js",
     "service-worker.js": "/todo_list_updated-axios/service-worker.js",
     "static/css/main.faf3ddbb.chunk.css.map": "/todo_list_updated-axios/static/css/main.faf3ddbb.chunk.css.map",
     "static/js/2.b0d3f6b7.chunk.js.LICENSE.txt": "/todo_list_updated-axios/static/js/2.b0d3f6b7.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9dfdf312.js",
     "static/js/2.b0d3f6b7.chunk.js",
     "static/css/main.faf3ddbb.chunk.css",
-    "static/js/main.f23196a0.chunk.js"
+    "static/js/main.ec213c92.chunk.js"
   ]
 }
